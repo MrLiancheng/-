@@ -29,20 +29,21 @@ a {
 }
 
 .m_title_line {
-    width: 200px;
+    width: 84.7%;
     height: 2px;
-    background: #fff;
+    background: #d48a8d;
     margin: 0 auto;
 }
 
 .m_title_p {
-    font-size: 30px;
+    font-size: 26px;
     background: #c6252b;
     color: #fff;
     position: absolute;
     top: 10px;
-    margin-left: 28%;
-    padding: 0 10px;
+    left: 50%;
+    margin-left: -68px;
+    padding: 0 16px;
 }
 
 .rightColumnName {
@@ -70,7 +71,7 @@ a {
     color: #fff;
     background: #d65c60a1;
     padding: 20px 10px;
-    border-top-right-radius: 16px;
+    
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     font-size: 16px;
@@ -120,17 +121,17 @@ a {
 }
 
 .left-l {
-    border-top: #d48a8d 1px solid;
+    border-top: #d48a8d 2px solid;
     margin-right: 16px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     width: 60px;
     display: inline-block;
 }
 
 .right-l {
-    border-top: #d48a8d 1px solid;
+    border-top: #d48a8d 2px solid;
     margin-left: 16px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     width: 60px;
     display: inline-block;
 }
@@ -148,12 +149,12 @@ a {
 
 }
 
-.lltsBox .lltsColumnContent .lltsCardBox .lltsCardItem .lltsCardCoverimg {
+/*.lltsBox .lltsColumnContent .lltsCardBox .lltsCardItem .lltsCardCoverimg {
     display: block;
     background: url(../../../../static/img/portal/gxyx/GXruimenSM.png) no-repeat center center;
     background-size: contain;
-    /*在宽度呈百分比时，图片大小由高度决定，图片不同*/
-}
+    在宽度呈百分比时，图片大小由高度决定，图片不同
+}*/
 
 .lltsBox .lltsColumnContent .lltsCardBox .lltsCardItem .lltsCardCoverimg img{
     width: 98%;
